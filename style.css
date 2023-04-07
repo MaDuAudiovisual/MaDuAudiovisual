@@ -1,0 +1,103 @@
+/* Set default styles for body and html */
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: #333;
+    max-height: 400px;
+  }
+  
+  /* Define the styles for the fixed navigation bar */
+  .fixed-nav {
+    position: fixed;
+    top: 10;
+    bottom: 0;
+    left: 10;
+    width: 100px;
+    height: 300px;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    overflow: hidden;
+  }
+  
+  .fixed-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .fixed-nav li {
+    margin-bottom: 10px;
+  }
+  
+  .fixed-nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Define the styles for the main content area */
+  main {
+    margin-left: 220px;
+    padding: 20px;
+  }
+  
+  header {
+    margin-bottom: 40px;
+  }
+  
+  .logo img {
+    width: 100px;
+    padding-bottom: 10px;
+  }
+  
+  h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .btn {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px
+  }
+
+  .image-container {
+    display: flex;
+  }
+  
+  .column {
+    flex: 1;
+    padding: 5px;
+  }
+  
+  /*img {
+    max-width: 90%;
+    height: auto;
+  }*/
+
+  .capa-fotografia {
+          width: 90%;
+        height: 89%;
+        object-fit: cover;
+        object-position: center;
+      }
+  
+
+  .capa-audiovisual {
+    max-width: 90%;
+    height: auto;
+  }
+
+  footer p.copyright {
+        color: #fff;
+        font-size: 8pt;
+  }
+
